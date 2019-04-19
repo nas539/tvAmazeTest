@@ -12,6 +12,8 @@
 		041232EE226A0BE800225069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041232EC226A0BE800225069 /* Main.storyboard */; };
 		041232F0226A0BEB00225069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041232EF226A0BEB00225069 /* Assets.xcassets */; };
 		041232F3226A0BEB00225069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041232F1226A0BEB00225069 /* LaunchScreen.storyboard */; };
+		041232FB226A1CB500225069 /* GameOfThrones.json in Resources */ = {isa = PBXBuildFile; fileRef = 041232FA226A1CB500225069 /* GameOfThrones.json */; };
+		041232FD226A201C00225069 /* structsForTVAmaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041232FC226A201C00225069 /* structsForTVAmaze.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		041232EF226A0BEB00225069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041232F2226A0BEB00225069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041232F4226A0BEB00225069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041232FA226A1CB500225069 /* GameOfThrones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = GameOfThrones.json; path = ../../../../Downloads/GameOfThrones.json; sourceTree = "<group>"; };
+		041232FC226A201C00225069 /* structsForTVAmaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structsForTVAmaze.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				041232E8226A0BE800225069 /* AppDelegate.swift */,
 				041232EA226A0BE800225069 /* ViewController.swift */,
+				041232FC226A201C00225069 /* structsForTVAmaze.swift */,
 				041232EC226A0BE800225069 /* Main.storyboard */,
 				041232EF226A0BEB00225069 /* Assets.xcassets */,
 				041232F1226A0BEB00225069 /* LaunchScreen.storyboard */,
 				041232F4226A0BEB00225069 /* Info.plist */,
+				041232FA226A1CB500225069 /* GameOfThrones.json */,
 			);
 			path = tvAmazeTest;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041232FB226A1CB500225069 /* GameOfThrones.json in Resources */,
 				041232F3226A0BEB00225069 /* LaunchScreen.storyboard in Resources */,
 				041232F0226A0BEB00225069 /* Assets.xcassets in Resources */,
 				041232EE226A0BE800225069 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041232EB226A0BE800225069 /* ViewController.swift in Sources */,
+				041232FD226A201C00225069 /* structsForTVAmaze.swift in Sources */,
 				041232E9226A0BE800225069 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
