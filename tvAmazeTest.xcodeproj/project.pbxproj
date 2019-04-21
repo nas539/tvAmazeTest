@@ -14,6 +14,8 @@
 		041232F3226A0BEB00225069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041232F1226A0BEB00225069 /* LaunchScreen.storyboard */; };
 		041232FB226A1CB500225069 /* GameOfThrones.json in Resources */ = {isa = PBXBuildFile; fileRef = 041232FA226A1CB500225069 /* GameOfThrones.json */; };
 		041232FD226A201C00225069 /* structsForTVAmaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041232FC226A201C00225069 /* structsForTVAmaze.swift */; };
+		0479023E226D226200527BA1 /* EnumsForTVAmaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479023D226D226200527BA1 /* EnumsForTVAmaze.swift */; };
+		04790240226D29E900527BA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479023F226D29E900527BA1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		041232F4226A0BEB00225069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041232FA226A1CB500225069 /* GameOfThrones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = GameOfThrones.json; path = ../../../../Downloads/GameOfThrones.json; sourceTree = "<group>"; };
 		041232FC226A201C00225069 /* structsForTVAmaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structsForTVAmaze.swift; sourceTree = "<group>"; };
+		0479023D226D226200527BA1 /* EnumsForTVAmaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumsForTVAmaze.swift; sourceTree = "<group>"; };
+		0479023F226D29E900527BA1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				041232E8226A0BE800225069 /* AppDelegate.swift */,
+				0479023F226D29E900527BA1 /* SecondViewController.swift */,
+				0479023D226D226200527BA1 /* EnumsForTVAmaze.swift */,
 				041232EA226A0BE800225069 /* ViewController.swift */,
 				041232FC226A201C00225069 /* structsForTVAmaze.swift */,
 				041232EC226A0BE800225069 /* Main.storyboard */,
@@ -145,6 +151,8 @@
 				041232EB226A0BE800225069 /* ViewController.swift in Sources */,
 				041232FD226A201C00225069 /* structsForTVAmaze.swift in Sources */,
 				041232E9226A0BE800225069 /* AppDelegate.swift in Sources */,
+				04790240226D29E900527BA1 /* SecondViewController.swift in Sources */,
+				0479023E226D226200527BA1 /* EnumsForTVAmaze.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
