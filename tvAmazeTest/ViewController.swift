@@ -9,12 +9,14 @@
 import UIKit
 
 var jsonData: TVAmazeVars?
+
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var backButton: UIBarButtonItem!
     @IBOutlet weak var tableView: UITableView!
     
-    
+    var episodesArray: [episodes] = [episodes]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,9 +52,20 @@ class ViewController: UIViewController {
     
     }
 extension ViewController : UITableViewDelegate {
+    
+    private func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let SecondViewController = storyboard.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        SecondViewController.episodeTitle = self.episodesArray[indexPath.row].episodeTitle
+        SecondViewController.premierDate = self.episodesArray[indexPath.row].premierDate
+        SecondViewController.airtime = self.episodesArray[indexPath.row].airtime
+        SecondViewController.season = String(self.episodesArray[indexPath.row].season)
+        SecondViewController.episodeNumber = String(self.episodesArray[indexPath.row].episodeNumber)
+        SecondViewController.summary = self.episodesArray[indexPath.row].summary
+        navigationController?.pushViewController(SecondViewController, animated: true)
+    }
         
-        
-        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    private func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
             tableView.cellForRow(at: indexPath)?.isSelected = false
         }
     }

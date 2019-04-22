@@ -8,32 +8,33 @@
 
 import UIKit
 
+class SecondViewController: UIViewController {
 
 var episodeTitle: String?
 var premierDate: String?
 var airtime: String?
 var season: String?
-var episodeNumber: String?
+var number: String?
 var summary: String?
 
-@IBOutlet weak var episodeTitleLabel: UILabel!
-@IBOutlet weak var premierDatetLabel: UILabel!
-@IBOutlet weak var airtimeLabel: UILabel!
-@IBOutlet weak var seasonLabel: UILabel!
-@IBOutlet weak var episodeNumberLabel: UILabel!
-
-@IBOutlet weak var summaryLabel: UILabel!
+    weak var episodeTitleLabel: UILabel!
+    weak var premierDatetLabel: UILatlet
+    weak var airtimeLabel: UILutlet
+    weak var seasonLabel: UILabel!
+    @IBOutlet weak var episodeNumberLabel: UILabetlet
+    weak var summaryLabel: UILabel!
 
 override func viewDidLoad() {
     super.viewDidLoad()
     
-    // Do any additional setup after loading the view.
     episodeTitleLabel.text = episodeTitle
     premierDatetLabel.text = premierDate
     airtimeLabel.text = airtime
     seasonLabel.text = season
-    episodeNumberLabel.text = episodeNumber
+    episodeNumberLabel.text = episodeNumberLabel
+    
+    
     guard let summaryText = summary else {return}
     summaryLabel.text = summaryText
 }
-}
+
